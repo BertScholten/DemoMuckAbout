@@ -30,9 +30,9 @@ public class BallyTest extends TestCase {
     Player boy = bally.addPlayer("TestBoy");
     Player man = bally.addPlayer("TestMan");
     boy.setScore(10);
-    man.setScore(100);
+    man.setScore(200);
     bally.showHighScore();
-    assertEquals("High score", 100, ScoreBoard.getHighScore());
+    assertEquals("High score", 200, ScoreBoard.getHighScore());
   }
 
 }
