@@ -34,9 +34,5 @@ public class BallyTest extends TestCase {
     bally.showHighScore();
     assertEquals("High score", 200, ScoreBoard.getHighScore());
   }
-  
-  public void mmmmmmtest() {
-    fail("It's a guaranteed fail!");
-  }
 
 }
