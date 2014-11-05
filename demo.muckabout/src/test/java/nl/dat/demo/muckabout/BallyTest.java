@@ -7,15 +7,14 @@ import nl.dat.demo.muckabout.misc.ScoreBoard;
 import junit.framework.TestCase;
 
 /**
- * @author Bertje
  *
  */
 public class BallyTest extends TestCase {
 
   /**
-   * Test method for {@link nl.dat.demo.muckabout.Bally#getTopDog()}.
+   * Testing expected winner at end.
    */
-  public void testGetTopDog() {
+  public void testEnd() {
     Bally bally = new Bally();
     Player boy = bally.addPlayer("TestBoy");
     Player man = bally.addPlayer("TestMan");
@@ -25,6 +24,9 @@ public class BallyTest extends TestCase {
     assertEquals("Winner should be the man", man, winner);
   }
 
+  /**
+   * Testing expected high score.
+   */
   public void testHighScore() {
     Bally bally = new Bally();
     Player boy = bally.addPlayer("TestBoy");
