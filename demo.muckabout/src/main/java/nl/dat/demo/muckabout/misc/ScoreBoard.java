@@ -7,5 +7,5 @@ public class ScoreBoard {
   public static int getHighScore() {
     return Bally.highscore;
   }
-
+  
 }
