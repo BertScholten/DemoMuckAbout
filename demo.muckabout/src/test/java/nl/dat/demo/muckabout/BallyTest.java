@@ -35,4 +35,5 @@ public class BallyTest extends TestCase {
     assertEquals("High score", 200, ScoreBoard.getHighScore());
   }
 
+
 }
