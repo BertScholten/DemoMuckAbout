@@ -24,6 +24,7 @@ public class BallyTest extends TestCase {
     assertEquals("Winner should be the man", man, winner);
   }
 
+
   /**
    * Testing expected high score.
    */
